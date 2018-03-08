@@ -3,7 +3,7 @@
   Opportunity name: <%= opportunity.opp_name %><br>
   Opportunity description: <%= opportunity.opp_description %><br>
   Amount: <%= opportunity.amount %><br>
-  Stage: <%= opportunity.stage_id %><br><br>
+  Stage: <%=  opportunity.stage.stage_progress %><br><br>
 <% end %>
 
 <%= link_to 'Create Opportunity', new_opportunity_path, class: "btn btn-primary btn-sm" %><br><br>
