@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+    padding: 10px;
+}
+
+.new{
+  text-align: center;
+  width: 25%;
+}
+
+label{
+  width: 4em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.field{
+  max-width: 20%;
+}
+
+.actions{
+  max-width: 20%;
+}
