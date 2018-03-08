@@ -1,0 +1,5 @@
+<% @accounts.each do |account| %>
+  Account name: <%= account.account_name %><br>
+  Account address: <%= account.account_address%><br><br>
+<% end %>
+<%= link_to 'Create Account', new_account_path %>

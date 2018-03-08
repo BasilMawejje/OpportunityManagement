@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  opp_name: MyString
+  opp_description: MyText
+  amount: 1
+
+two:
+  opp_name: MyString
+  opp_description: MyText
+  amount: 1

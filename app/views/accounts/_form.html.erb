@@ -1,0 +1,16 @@
+<%= form_with model: @account do |f| %>
+
+  <div class="field">
+    <%= f.label :account_name %>
+    <%= f.text_field :account_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :account_address %>
+    <%= f.text_field :account_address %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
