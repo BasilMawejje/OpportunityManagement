@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :accounts
   resources :opportunities
   resources :stages
+  root :to => "accounts#index"
 end
