@@ -1,0 +1,10 @@
+<% @opportunities.each do |opportunity| %>
+  Account: <%= opportunity.account.account_name %><br>
+  Opportunity name: <%= opportunity.opp_name %><br>
+  Opportunity description: <%= opportunity.opp_description %><br>
+  Amount: <%= opportunity.amount %><br>
+  Stage: <%= opportunity.stage_id %><br><br>
+<% end %>
+
+<%= link_to 'Create Opportunity', new_opportunity_path %><br>
+<%= link_to 'back', accounts_path %>

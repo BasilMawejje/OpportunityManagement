@@ -1,0 +1,26 @@
+<%= form_with model: @opportunity do |f| %>
+
+  <div class="field">
+    <%= f.label :account %>
+    <%= select_tag(:account_id, options_for_select(@accounts)) %>
+  </div>
+
+  <div class="field">
+    <%= f.label :opportunity_name %>
+    <%= f.text_field :opp_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :opportunity_description %>
+    <%= f.text_area :opp_description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :amount %>
+    <%= f.text_field :amount %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
