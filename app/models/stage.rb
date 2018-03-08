@@ -1,3 +1,3 @@
 class Stage < ApplicationRecord
-  belongs_to :Opportunity
+  has_many :opportunities
 end

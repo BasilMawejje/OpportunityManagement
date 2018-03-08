@@ -6,6 +6,11 @@
   </div>
 
   <div class="field">
+    <%= f.label :stage %>
+    <%= select_tag(:stage_id, options_for_select(@stages)) %>
+  </div>
+
+  <div class="field">
     <%= f.label :opportunity_name %>
     <%= f.text_field :opp_name %>
   </div>
