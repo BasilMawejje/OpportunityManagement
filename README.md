@@ -22,7 +22,7 @@ The models for this project are:
 - User
 - Account
 - Opportunity
-- Stages
+- Stage
 
 ## How to run the application
 -If you have Ruby on Rails installed on your machine, clone the repository into a directory in the terminal.
