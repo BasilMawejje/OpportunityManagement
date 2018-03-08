@@ -3,8 +3,8 @@
     Account name: <%= account.account_name %><br>
     Account address: <%= account.account_address%><br><br>
   <% end %>
-  <%= link_to 'Create Account', new_account_path %><br>
-  <%= link_to 'View Opportunities', opportunities_path %>
+  <%= link_to 'Create Account', new_account_path, class: "btn btn-primary btn-sm" %><br><br>
+  <%= link_to 'View Opportunities', opportunities_path, class: "btn btn-success btn-sm" %>
 <% else %>
   <div style="width: 75%; margin-right: auto; margin-left: auto;">
     <h4 style="width: 50%; margin-right: auto; margin-left: auto;">Welcome to the Opportunity Management</h4>
