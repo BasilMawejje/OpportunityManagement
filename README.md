@@ -3,7 +3,7 @@ An web application to login and view Accounts and their related opportunites.
 
 ## How to use the application
 As a user, you will see the welcome to Opportunity Management page with a login link. Click login if you have an existing account. If you do NOT have an account yet, click sign up to create one.
-On successfully loggin in, you will see the accounts page with a create account button. You can create account button and view opportunites button.The click account button brings up a form used to create an account. The view opportunities button show a list of the available opportunities. This page has a create opportunity button which redirects to a form from which you can select an account, stage and fill in the appropriate details which are added to the opportunities page. 
+On successfully loggin in, you will see the accounts page with a create account button. You can create account button and view opportunites button.The click account button brings up a form used to create an account. The view opportunities button show a list of the available opportunities. This page has a create opportunity button which redirects to a form from which you can select an account, stage and fill in the appropriate details which are added to the opportunities page.
 
 ## Getting Started
 Change the current working directory to the location where you want the cloned directory to be made.
@@ -42,6 +42,7 @@ The Ruby on Rails has a variety of tools which are easy to implement into code. 
 #### Main Gems and Helpers
 * [Rails](https://github.com/rails/rails)
 * [Devise](https://github.com/plataformatec/devise)
+* [Bootstrap](https://github.com/twbs/bootstrap-rubygem)
 
 #### Development Gems
 * [Pry Byebug](https://github.com/deivid-rodriguez/pry-byebug)
