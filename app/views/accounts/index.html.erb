@@ -1,7 +1,7 @@
 <% if user_signed_in? %>
   <% @accounts.each do |account| %>
-    Account name: <%= account.account_name %><br>
-    Account address: <%= account.account_address%><br><br>
+    <b>Account name:</b> <%= account.account_name %><br>
+    <b>Account address:</b> <%= account.account_address%><br><br>
   <% end %>
   <%= link_to 'Create Account', new_account_path, class: "btn btn-primary btn-sm" %><br><br>
   <%= link_to 'View Opportunities', opportunities_path, class: "btn btn-success btn-sm" %>
